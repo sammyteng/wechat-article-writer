@@ -1,0 +1,51 @@
+{
+  "skill": "wechat-article-writer",
+  "title": "公众号文章全流程写作流程",
+  "nodes": [
+    {
+      "title": "接需求",
+      "subtitle": "用户给主题/风格/字数等参数",
+      "type": "io"
+    },
+    {
+      "title": "安全审查",
+      "subtitle": "扫敏感选题,踩线主动预警换角度",
+      "type": "gate"
+    },
+    {
+      "title": "选骨架",
+      "subtitle": "从5种内容骨架库匹配模板",
+      "type": "reuse"
+    },
+    {
+      "title": "采集写稿",
+      "subtitle": "全网信源采集+按骨架写正文",
+      "type": "code"
+    },
+    {
+      "title": "配套内容包",
+      "subtitle": "3标题+CTA+朋友圈文案",
+      "type": "code"
+    },
+    {
+      "title": "生成封面",
+      "subtitle": "imagegen或HTML截图出封面图",
+      "type": "code"
+    },
+    {
+      "title": "排版注入",
+      "subtitle": "注入md.doocs.org并截图确认",
+      "type": "reuse"
+    },
+    {
+      "title": "发布确认",
+      "subtitle": "飞书审阅+推草稿前人工核对",
+      "type": "gate"
+    },
+    {
+      "title": "交付成片",
+      "subtitle": "飞书文档+公众号草稿+Checklist",
+      "type": "io"
+    }
+  ]
+}
